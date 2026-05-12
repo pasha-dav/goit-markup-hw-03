@@ -37,3 +37,46 @@
 .contact-link:focus {
     color: #404bbf;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: 76px; 
+}
+
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-link {
+  display: block;
+  padding: 24px 0;
+
+}
+
+.contacts {
+  font-style: normal;
+  margin-left: auto; 
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-link {
+  display: block;
+  padding: 24px 0;
+}
